@@ -1,6 +1,7 @@
 a
   text-decoration: none
   color: rgb(77, 85, 93)
+
 .router-link-exact-active
   color: rgb(240, 20, 20)
 
@@ -13,3 +14,8 @@ a
   .border-1px
     &::after
       transform: scaleY(0.5)
+
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3)
+  .border-1px
+    &::after
+      transform: scaleY(0.33)
