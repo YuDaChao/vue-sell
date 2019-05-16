@@ -52,6 +52,7 @@ export default {
 
 .header
   position relative
+  overflow hidden
   background-color rgba(7, 17, 27, 0.5)
   .content-wrapper
     position relative
@@ -152,7 +153,6 @@ export default {
       white-space nowrap
       text-overflow ellipsis
       color rgb(255, 255, 255)
-      line-height 28px
       margin 0 8px 0
     .icon-keyboard_arrow_right
       position absolute
